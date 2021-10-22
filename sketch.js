@@ -67,7 +67,13 @@ function draw() {
 }
 
 keyPressed = function () {
-  switch (keyCode) {
+  clickArrow(keyCode);
+};
+
+
+function clickArrow(keyClicked) {
+  console.log(keyClicked);
+  switch (keyClicked) {
     case UP_ARROW:
       if (!s.ySpeed) {
         s.dir(0, -1);
@@ -99,7 +105,8 @@ keyPressed = function () {
       loop();
       break;
   }
-};
+}
+
 
 class Cell {
   x = 0;
