@@ -8,6 +8,8 @@ Ref:
 
 ## Final result
 
+[Play it here](https://pratikkute.github.io/snake-p5js/)
+
 <p align="center">
 <img src="./assets/snake.jpg"
 alt="Logo"/>
