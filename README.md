@@ -1,15 +1,3 @@
----
-title: Build a clsssic SNAKE game with P5js
-description: Learn P5js by building a clsssic SNAKE game with P5js and javascript
-author: Pratik Kute
-date: 2021-10-22T05:35:57.631Z
-tags:
-  - post
-  - featured
-image: /assets/blog/snake.jpg
-imageAlt: finsished game
----
-
 # Build a clsssic SNAKE game with P5js
 
 Ref:
@@ -20,13 +8,18 @@ Ref:
 
 ## Final result
 
+<p align="center">
 <img src="./assets/snake.jpg"
 alt="Logo"/>
+</p>
 
 ## P5.js
 
-<img src="./assets/p5js.svg"
+<p align="center">
+  <img src="./assets/p5js.svg"
 alt="p5js"/>
+</p>
+
 
 p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else! p5.js is free and open-source because we believe software, and the tools to learn it, should be accessible to everyone.
 
@@ -57,8 +50,8 @@ Create a sketch.js file add it in index file
 
 Now do the basic setup for your canvas for p5.js
 
+sketch.js
 ```js
-
 function setup() {
   var myCanvas = createCanvas(winWidth, winHeight);
   myCanvas.parent("canvasDiv");
