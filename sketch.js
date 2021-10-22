@@ -14,7 +14,7 @@ let scoreSpan;
 
 function preload() {
   scoreSpan = document.querySelector("#score");
-  myFont = loadFont("aAbstractGroovy.ttf");
+  myFont = loadFont("./assets/aAbstractGroovy.ttf");
 }
 
 function setup() {
