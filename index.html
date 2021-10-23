@@ -17,19 +17,31 @@
 
 <body>
   <main class="main">
-    <div class="title">
+    <div class="center">
       <h1>Play Snake</h1>
       <h2>Your score is
         <span id="score"></span>
       </h2>
+      <span>
+        <button onclick="clickArrow(82)">Restart</button>
+        <button onclick="clickArrow(32)">Pause/Play</button>
+      </span>
     </div>
     <div id="canvasDiv"></div>
+
+    <div class="center">
+
+      <h2>
+        Use arrow on desktop
+      </h2>
+    </div>
+
     <div class="keys">
 
-<button id="left" onclick="clickArrow(37)">left</button>
-<button id="up" onclick="clickArrow(38)">up</button>
-<button id="right" onclick="clickArrow(39)">right</button><br>
-<button id="down" onclick="clickArrow(40)">down</button>
+      <button id="left" onclick="clickArrow(37)">left</button>
+      <button id="up" onclick="clickArrow(38)">up</button>
+      <button id="right" onclick="clickArrow(39)">right</button><br>
+      <button id="down" onclick="clickArrow(40)">down</button>
 
     </div>
   </main>

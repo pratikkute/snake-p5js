@@ -6,8 +6,8 @@ let score = 0;
 let pause = false;
 let gameOver = false;
 let myFont;
-let winWidth=400;
-let winHeight=400;
+let winWidth = 400;
+let winHeight = 400;
 let scl = 20;
 let fps = 10;
 let scoreSpan;
@@ -52,7 +52,7 @@ function draw() {
   fill(255, 0, 0);
   rect(food.x, food.y, scl, scl);
   textSize(32);
-  scoreSpan.innerHTML= score;
+  scoreSpan.innerHTML = score;
   if (gameOver) {
     background(0);
     textSize(50);
@@ -69,7 +69,6 @@ function draw() {
 keyPressed = function () {
   clickArrow(keyCode);
 };
-
 
 function clickArrow(keyClicked) {
   console.log(keyClicked);
@@ -98,7 +97,6 @@ function clickArrow(keyClicked) {
       pause = !pause;
       break;
     case 82:
-      console.log("r");
       score = 0;
       gameOver = false;
       s.reset();
@@ -106,7 +104,6 @@ function clickArrow(keyClicked) {
       break;
   }
 }
-
 
 class Cell {
   x = 0;
